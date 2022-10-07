@@ -1,0 +1,41 @@
+#image: map2.png # Box
+#image: map_square/map6.png # Curve
+#image: map5.png # Trees
+
+#resolution: 0.155
+
+# resolution: 0.005
+# origin: [-10.000000, -10.000000, 0.000000]
+# origin: [0,0,0]
+# origin: [-24.550000, -24.550000, 0.000000]
+#origin: [-6.350000, -6.350000, 0.000000]
+
+# experiment basic
+#image: map_square/map2.png # Box
+#resolution: 0.155
+##origin: [-6.350000, -6.350000, 0.000000]
+#origin: [-6.45000, -6.45000, 0.000000]
+
+# demo 20201104
+#image: map_demo_choy.png
+##resolution: 0.0785 #change by Hayashi
+#resolution: 0.078
+#origin: [-6.112, -9.554, 0.0] #change by Hayashi
+#image: map_demo_choy_2.png
+#resolution: 0.078
+#origin: [-6.112, -17.430, 0.0] #change by Hayashi
+
+# experiment mow
+#image: white_map/white_400x400.png
+##resolution: 0.50
+#resolution: 0.2
+#origin: [-5.0, -5.0, 0.0]
+
+image: white_map/white_1400x1400.png
+resolution: 0.2
+origin: [-140.0, -140.0, 0.0]
+
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
